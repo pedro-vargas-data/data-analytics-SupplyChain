@@ -69,6 +69,6 @@ Al cruzar los datos por tipo de envío, descubrí que el problema no es general,
 ```bash
 git clone https://github.com/Pedro-Vargas-Data-Analyst/supply-chain-optimization.git
 cd supply-chain-optimization
-
-Desarrollado por Pedro Vargas Salgado | www.linkedin.com/in/pedrovargas-data-mba
+```
+## Desarrollado por Pedro Vargas Salgado | www.linkedin.com/in/pedrovargas-data-mba
 
