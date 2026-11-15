@@ -27,60 +27,48 @@ En este proyecto armé un flujo de trabajo para atacar este problema: limpié lo
 
 ## 📂 3. Estructura del Repositorio
 
-```text
-supply-chain-optimization/
-│
-├── data/
-│   └── clean_supply.csv                      # Dataset limpio y listo para análisis (44 columnas)
-│
-├── notebooks/
-│   └── 01_data_cleaning.ipynb                # Script de Python con la limpieza y auditoría inicial
-│
-├── dashboards/
-│   └── Supply_analysis.xlsx                  # Archivo de Excel con el modelo de datos y el Dashboard
-│
-├── reports/
-│   └── Informe_SupplyChain_PedroVargas.pdf   # Reporte ejecutivo listo para descargar
-│
-├── images/
-│   └── executive_dashboard.png               # Captura general del tablero en Excel
-│
-└── README.md                                 # Documentación del proyecto
+* **`data/clean_supply.csv`** — Dataset limpio y listo para análisis (44 columnas)
+* **`notebooks/01_data_cleaning.ipynb`** — Script de Python con la limpieza y auditoría inicial
+* **`dashboards/Supply_analysis.xlsx`** — Archivo de Excel con el modelo de datos y el Dashboard
+* **`reports/Informe_SupplyChain_PedroVargas.pdf`** — Reporte ejecutivo listo para descargar
+* **`images/executive_dashboard.png`** — Captura general del tablero en Excel
+* **`README.md`** — Documentación principal del proyecto
 
-🔍 4. Principales Hallazgos
-📊 El problema real con los envíos
+---
 
+## 🔍 4. Principales Hallazgos
+
+### 📊 El problema real con los envíos
 Al cruzar los datos por tipo de envío, descubrí que el problema no es general, sino de servicios específicos con expectativas irreales:
+* **First Class:** `95.32%` de retrasos (27,814 ítems). Prácticamente todo llega tarde.
+* **Second Class:** `76.63%` de retrasos (35,216 ítems). Una brecha de tiempo muy alta.
+* **Same Day:** `45.74%` de retrasos (9,737 ítems).
+* **Standard Class:** `38.07%` de retrasos (107,752 ítems). Es la base más estable de la operación.
 
-    First Class: 95.32% de retrasos (27,814 ítems). Prácticamente todo llega tarde.
+### 🌍 ¿Dónde se concentra el negocio?
+* **Mercados principales:** **Europa** ($10.87M USD) y **LATAM** ($10.28M USD) suman el **57.5%** de las ventas totales.
+* **Categorías fuertes:** **Fan Shop** ($17.11M USD) y **Apparel** ($7.98M USD) lideran la facturación.
 
-    Second Class: 76.63% de retrasos (35,216 ítems). Una brecha de tiempo muy alta.
+---
 
-    Same Day: 45.74% de retrasos (9,737 ítems).
+## 📊 5. Vista Previa del Dashboard
+![Executive Dashboard](images/executive_dashboard.png)
 
-    Standard Class: 38.07% de retrasos (107,752 ítems). Es la base más estable de la operación.
+---
 
-🌍 ¿Dónde se concentra el negocio?
+## 💡 6. Recomendaciones Operativas
 
-    Mercados principales: Europa ($10.87M USD) y LATAM ($10.28M USD) suman el 57.5% de las ventas totales.
+1. **Ajustar los tiempos de entrega (SLAs):** Las promesas en *First* y *Second Class* están rotas frente a la realidad logística. Hay que ajustar los días estimados en el sistema para no darle falsas expectativas al cliente.
+2. **Revisar socios logísticos (3PL):** Poner la lupa en Europa y LATAM, ya que concentran la mayor parte de los ingresos y las demoras.
+3. **Control antifraude:** Automatizar validaciones básicas en las órdenes para mantener controlado el **2.25%** de riesgo de fraude detectado sin bloquear ventas legítimas.
 
-    Categorías fuertes: Fan Shop ($17.11M USD) y Apparel ($7.98M USD) lideran la facturación.
+---
 
-📊 5. Vista Previa del Dashboard
+## 🚀 7. Cómo clonar y revisar el proyecto
 
-(Asegúrate de tener tu imagen subida en la carpeta images/ con el nombre executive_dashboard.png)
-💡 6. Recomendaciones Operativas
-
-    Ajustar los tiempos de entrega (SLAs): Las promesas en First y Second Class están rotas frente a la realidad logística. Hay que ajustar los días estimados en el sistema para no darle falsas expectativas al cliente.
-
-    Revisar socios logísticos (3PL): Poner la lupa en Europa y LATAM, ya que concentran la mayor parte de los ingresos y las demoras.
-
-    Control antifraude: Automatizar validaciones básicas en las órdenes para mantener controlado el 2.25% de riesgo de fraude detectado sin bloquear ventas legítimas.
-
-🚀 7. Cómo clonar y revisar el proyecto
-Bash
-
-git clone [https://github.com/Pedro-Vargas-Data-Analyst/supply-chain-optimization.git](https://github.com/Pedro-Vargas-Data-Analyst/supply-chain-optimization.git)
+```bash
+git clone https://github.com/Pedro-Vargas-Data-Analyst/supply-chain-optimization.git
 cd supply-chain-optimization
 
 Desarrollado por Pedro Vargas Salgado | www.linkedin.com/in/pedrovargas-data-mba
+
