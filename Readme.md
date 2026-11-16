@@ -51,7 +51,7 @@ Al cruzar los datos por tipo de envío, descubrí que el problema no es general,
 ---
 
 ## 📊 5. Vista Previa del Dashboard
-![Executive Dashboard](images/executive_dashboard.png)
+![Executive Dashboard](Outputs/Executive_dashboard.png)
 
 ---
 
