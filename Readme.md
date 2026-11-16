@@ -29,7 +29,6 @@ En este proyecto armé un flujo de trabajo para atacar este problema: limpié lo
 
 * **`data/clean_supply.csv`** — Dataset limpio y listo para análisis (44 columnas)
 * **`notebooks/01_data_cleaning.ipynb`** — Script de Python con la limpieza y auditoría inicial
-* **`dashboards/Supply_analysis.xlsx`** — Archivo de Excel con el modelo de datos y el Dashboard
 * **`reports/Informe_SupplyChain_PedroVargas.pdf`** — Reporte ejecutivo listo para descargar
 * **`images/executive_dashboard.png`** — Captura general del tablero en Excel
 * **`README.md`** — Documentación principal del proyecto
