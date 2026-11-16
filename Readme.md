@@ -27,11 +27,11 @@ En este proyecto armé un flujo de trabajo para atacar este problema: limpié lo
 
 ## 📂 3. Estructura del Repositorio
 
-* **`data/clean_supply.csv`** — Dataset limpio y listo para análisis (44 columnas)
-* **`notebooks/01_data_cleaning.ipynb`** — Script de Python con la limpieza y auditoría inicial
-* **`reports/Informe_SupplyChain_PedroVargas.pdf`** — Reporte ejecutivo listo para descargar
-* **`images/executive_dashboard.png`** — Captura general del tablero en Excel
-* **`README.md`** — Documentación principal del proyecto
+* **`Data/sample_clean_supply.csv`** — Dataset limpio y listo para análisis (44 columnas)
+* **`Notebooks/supply-chain-optimization_notebooks_01_data_cleaning.ipynb`** — Script de Python con la limpieza y auditoría inicial
+* **`Reports/Informe_SupplyChain_PedroVargas.pdf`** — Reporte ejecutivo listo para descargar
+* **`Outputs/Executive_dashboard.png`** — Captura general del tablero en Excel
+* **`Readme.md`** — Documentación principal del proyecto
 
 ---
 
