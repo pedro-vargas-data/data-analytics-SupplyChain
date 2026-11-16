@@ -66,8 +66,8 @@ Al cruzar los datos por tipo de envío, descubrí que el problema no es general,
 ## 🚀 7. Cómo clonar y revisar el proyecto
 
 ```bash
-git clone https://github.com/Pedro-Vargas-Data-Analyst/supply-chain-optimization.git
-cd supply-chain-optimization
+git clone https://github.com/pedro-vargas-data/data-analytics-SupplyChain.git
+cd data-analytics-SupplyChain
 ```
 ## Desarrollado por Pedro Vargas Salgado | www.linkedin.com/in/pedrovargas-data-mba
 
