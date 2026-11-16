@@ -69,5 +69,5 @@ Al cruzar los datos por tipo de envío, descubrí que el problema no es general,
 git clone https://github.com/pedro-vargas-data/data-analytics-SupplyChain.git
 cd data-analytics-SupplyChain
 ```
-## Desarrollado por Pedro Vargas Salgado | www.linkedin.com/in/pedrovargas-data-mba
+Desarrollado por Pedro Vargas Salgado | www.linkedin.com/in/pedrovargas-data-mba
 
